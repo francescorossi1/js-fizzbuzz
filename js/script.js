@@ -5,6 +5,8 @@ console.log('JS OK')
 const display = document.getElementById('display');
 let printNumber = ""
 
+let numberList = '<ul>'
+
 // Stampo in console i numeri da 1 a 100
 
 for(let i = 1; i <= 100; i++){
@@ -24,7 +26,10 @@ for(let i = 1; i <= 100; i++){
     else{
         printNumber = ` ${i}`;    
     }
-    console.log(printNumber)
     
+    numberList += `<li>${printNumber}</li>`
 }
 
+numberList += '</ul>'
+
+display.innerHTML = numberList;
