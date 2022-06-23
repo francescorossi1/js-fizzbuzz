@@ -1,0 +1,27 @@
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.bgc-page{
+    background-color: #083B4C;
+}
+
+.box{
+    text-align: center;
+    min-height: 70px;
+    background-color: #1389B2;
+    line-height: 70px;
+}
+
+.box.f{
+    background-color: #0BD6A1;
+}
+
+.box.b{
+    background-color: #FFD166;
+}
+
+.box.fb{
+    background-color: #F0466F;
+}
